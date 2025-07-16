@@ -1,7 +1,10 @@
 Đây là script hỗ trợ tự động khởi chạy MemProcFS và Volatility3 sau đó lưu trữ các kết quả cần thiết cho quá trình phân tích pháp chứng bộ nhớ. 
 Cách chạy: 
+
 Bước 1: Tải MemProcFS và Volatility3
+
 MemProcFS: https://github.com/ufrisk/MemProcFS
+
 Volatility3: https://github.com/volatilityfoundation/volatility3
 
 Bước 2: Thay đổi giá trị ở phần CẤU HÌNH cho phù hợp với hệ thống.
