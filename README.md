@@ -11,14 +11,22 @@ Bước 2: Thay đổi giá trị ở phần CẤU HÌNH cho phù hợp với h�
 <img width="1112" height="183" alt="image" src="https://github.com/user-attachments/assets/3297644e-2ef8-44bc-af2a-d4073aceb797" />
 
 Bước 3: Chạy chương trình bằng lệnh: 
-```python auto_analysis.py -f "C:\Users\nguye\Documents\kovter.mem" -p 8128```
+```python auto_analysis.py -f "<path-to-memdump>" -p <PID1>,<PID2>,...```
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/baa88357-4ea2-4272-963a-c7d9574bf269" />
 
-Hoặc
-```python auto_analysis.py -f "C:\Users\nguye\Documents\kovter.mem"```
+Hoặc 
+```python auto_analysis.py -f "<path-to-memdump>"```
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e84736da-1f06-4a57-b0e8-da4e26f2a4c4" />
 
 
 Kết quả sẽ được lưu ở C:\MemoryAnalysis và có thể thay đổi được tại mục CẤU HÌNH.
+
+Bước 4: Chạy chương trình lọc kết quả được xuất ra ở bước 3
+
+Lệnh chạy chương trình: ```python ioc_scanner_auto.py "<path-to-step-3-output-folder>" [-o <path-to-file-output>] --pid <PID1>,<PID2>,...```
+
+<img width="835" height="77" alt="image" src="https://github.com/user-attachments/assets/696d9990-2e2b-4ee5-b3e4-0ebcce1789cc" />
+
+Ghi chú: File output có dạng .json
