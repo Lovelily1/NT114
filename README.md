@@ -1,3 +1,17 @@
+<p align="center">
+  <img src="https://www.uit.edu.vn/sites/vi/files/banner_uit.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
+</p>
+
+# AN APPROACH TO THE ANALYSIS OF FILELESS MALWARE BASED ON MEMORY FORENSICS (MỘT CÁCH TIẾP CẬN TRONG VIỆC PHÂN TÍCH MÃ ĐỘC PHI MÃ DỰA TRÊN PHÁP CHỨNG BỘ NHỚ)
+
+## THÀNH VIÊN
+| Họ tên | MSSV |
+| ------ | ---- |
+| Nguyễn Khánh Linh | 22520769 |
+| Phạm Thị Cẩm Tiên | 22521473 |
+
+## HƯỚNG DẪN
+
 Đây là script hỗ trợ tự động khởi chạy MemProcFS và Volatility3 sau đó lưu trữ các kết quả cần thiết cho quá trình phân tích pháp chứng bộ nhớ. 
 Cách chạy: 
 
